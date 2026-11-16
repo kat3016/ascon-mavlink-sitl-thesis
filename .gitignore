@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+# build outputs
+kit/build/
+kit/bench/libcount.so
+tables/
+figures/out/
+figures/figures/
+figures/figures_es/
+# secrets (generated locally)
+kit/keys/
+kit/bench/uav.pem
+kit/bench/uav.key
+# large raw captures
+*.pcap
+# SITL working state
+eeprom.bin
+terrain/
+logs/

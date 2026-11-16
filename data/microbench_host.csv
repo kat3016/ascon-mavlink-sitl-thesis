@@ -1,0 +1,21 @@
+alg,config,payload,op,median_ns
+ascon,scalar (no OpenSSL),36,seal,188
+ascon,scalar (no OpenSSL),36,open,186
+ascon,scalar (no OpenSSL),255,seal,570
+ascon,scalar (no OpenSSL),255,open,573
+aesgcm,scalar mask,36,seal,506
+aesgcm,scalar mask,36,open,511
+aesgcm,scalar mask,255,seal,1768
+aesgcm,scalar mask,255,open,1813
+aesgcm,accelerated,36,seal,130
+aesgcm,accelerated,36,open,130
+aesgcm,accelerated,255,seal,149
+aesgcm,accelerated,255,open,155
+chacha,scalar mask,36,seal,276
+chacha,scalar mask,36,open,280
+chacha,scalar mask,255,seal,597
+chacha,scalar mask,255,open,631
+chacha,accelerated,36,seal,299
+chacha,accelerated,36,open,263
+chacha,accelerated,255,seal,458
+chacha,accelerated,255,open,456

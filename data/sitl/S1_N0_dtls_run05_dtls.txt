@@ -1,0 +1,46 @@
+# GCS-side tunnel (client)
+handshake_ms=4.782
+version=DTLSv1.3
+suite=TLS_AES_128_GCM_SHA256
+plain_to_dtls_dgrams=1560
+plain_to_dtls_bytes=37569
+dtls_to_plain_dgrams=9514
+dtls_to_plain_bytes=320125
+write_dropped=0
+write_errors=0
+read_errors=0
+no_peer_drops=0
+timeouts=2
+# UAV-side tunnel (server)
+handshake_ms=2.947
+version=DTLSv1.3
+suite=TLS_AES_128_GCM_SHA256
+plain_to_dtls_dgrams=9514
+plain_to_dtls_bytes=320125
+dtls_to_plain_dgrams=1560
+dtls_to_plain_bytes=37569
+write_dropped=0
+write_errors=0
+read_errors=0
+no_peer_drops=0
+timeouts=2
+# wire bytes per datagram on veth-gcs
+down_datagrams=9450
+down_wire_bytes_total=526263
+down_wire_bytes_mean=55.69
+down_wire_bytes_median=56.0
+down_wire_bytes_min=36
+down_wire_bytes_max=78
+up_datagrams=1560
+up_wire_bytes_total=71889
+up_wire_bytes_mean=46.08
+up_wire_bytes_median=48.0
+up_wire_bytes_min=39
+up_wire_bytes_max=48
+down_clear_bytes_mean=33.65
+down_dtls_overhead_bytes_per_datagram=22.04
+down_datagrams_wire_vs_tunnel=9450/9514
+up_clear_bytes_mean=24.08
+up_dtls_overhead_bytes_per_datagram=22.00
+up_datagrams_wire_vs_tunnel=1560/1560
+# tunnel log lines other than the handshake report (errors, alerts)

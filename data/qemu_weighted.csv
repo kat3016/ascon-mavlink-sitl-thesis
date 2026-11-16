@@ -1,0 +1,16 @@
+scenario,alg,config,op,insns_per_mean_frame
+S1,aesgcm,NEON,seal,7351
+S1,aesgcm,no NEON,seal,7921
+S1,ascon,own code,seal,5429
+S1,chacha,NEON,seal,6396
+S1,chacha,no NEON,seal,6342
+S2,aesgcm,NEON,seal,7475
+S2,aesgcm,no NEON,seal,8069
+S2,ascon,own code,seal,5508
+S2,chacha,NEON,seal,6433
+S2,chacha,no NEON,seal,6375
+S4,aesgcm,NEON,seal,7141
+S4,aesgcm,no NEON,seal,7669
+S4,ascon,own code,seal,5295
+S4,chacha,NEON,seal,6325
+S4,chacha,no NEON,seal,6279
